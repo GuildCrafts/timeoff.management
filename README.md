@@ -1,11 +1,10 @@
+<strong style="color: red;">NOTICE: This is a clone of the original [TimeOff.Management repo](https://github.com/timeoff-management/application). It is intended for use by members of Learners Guild.</strong>
+
+---
 
 # TimeOff.Management
 
 Web application for managing employees absence.
-
-[![Stories in Ready](https://badge.waffle.io/timeoff-management/application.png?label=ready&title=Ready)](https://waffle.io/timeoff-management/application)
-
-<a href="https://travis-ci.org/timeoff-management/application"><img align="right" src="https://travis-ci.org/timeoff-management/application.svg?branch=master" alt="Build status" /></a>
 
 ## Features
 
@@ -91,7 +90,7 @@ Install TimeOff.Management application within your infrastructure:
 (make sure you have Node.js and SQLite installed)
 
 ```bash
-git clone https://github.com/timeoff-management/application.git timeoff-management
+git clone https://github.com/GuildCrafts/timeoff.management.git timeoff-management
 cd timeoff-management
 npm install
 npm start
@@ -119,7 +118,7 @@ In case one needs to patch existing instance of TimeOff.Managenent application w
 ```bash
 git fetch
 git pull origin master
-npm run-script db-update
+npm run db-update
 npm start
 ```
 
